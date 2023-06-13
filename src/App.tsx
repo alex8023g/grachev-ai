@@ -4,12 +4,16 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import { Header } from './Header';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Portfolio } from './Portfolio';
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
+      <Routes>
+        <Route path='/' element={<Portfolio />} />
+      </Routes>
     </BrowserRouter>
   );
 }
