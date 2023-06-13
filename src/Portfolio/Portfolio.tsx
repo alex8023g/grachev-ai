@@ -5,7 +5,7 @@ import React from 'react';
 export function Portfolio() {
   return (
     <>
-      <Typography>Портфолио</Typography>
+      <Typography variant='h1'>Портфолио</Typography>
     </>
   );
 }
