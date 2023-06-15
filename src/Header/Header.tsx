@@ -26,9 +26,9 @@ interface Props {
 
 const drawerWidth = 240;
 const navItems = [
-  { name: 'Portfolio', href: '/atm' },
-  { name: 'About', href: '/' },
-  { name: 'Contacts', href: '/currency' },
+  { name: 'Portfolio', href: '/' },
+  { name: 'About', href: '/about' },
+  { name: 'Contacts', href: '/contacts' },
   // { name: 'Выйти', href: '/login' },
 ];
 
@@ -43,7 +43,7 @@ export function Header(props: Props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant='h6' sx={{ my: 2 }}>
-        Coin.
+        GrachevAI
       </Typography>
       <Divider />
       <List>
