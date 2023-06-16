@@ -19,18 +19,21 @@ const sites = [
     href: 'https://evklid-henna.vercel.app/',
     image: evklid2Img,
     stack: 'HTML, CSS, Swiper.',
+    github: 'https://github.com/alex8023g/evklid',
   },
   {
     href: 'https://pomodoro-alpha-six.vercel.app/',
     image: pomodoroImg,
     stack: `React, Typescrypt, React-Router, Zustand, Drag'n'Drop, Rechart, Material
                   UI.`,
+    github: 'https://github.com/alex8023g/pomodoro',
   },
   {
     href: 'https://80-78-248-80.cloudvps.regruhosting.ru/monitoringsi?sechID=63d37736eaaf2b2db53299b9&naimsechshort=ТН%20ВНК%20+%20ГН%20Восток%20-%20ТЭСК%20(Юг)',
     image: monitoringsiImg,
     stack: `React, Typescrypt, React-Router, Zustand, Drag'n'Drop, Material
                   UI, Express, Mongo DB.`,
+    github: 'https://github.com/alex8023g/monitoringSi',
   },
 ];
 
@@ -38,9 +41,9 @@ export function Portfolio() {
   return (
     <Layout>
       <ul className={st.ul}>
-        {sites.map(({ image, href, stack }) => (
+        {sites.map(({ image, href, stack, github }) => (
           <li className={st.li} key={href}>
-            {<CardSite image={image} href={href} stack={stack} />}
+            {<CardSite image={image} href={href} stack={stack} github={github} />}
           </li>
         ))}
         {/* <li className={st.li}>

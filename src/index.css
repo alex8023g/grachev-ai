@@ -79,7 +79,9 @@ a
 */
 a {
   text-decoration: none;
+  decoration: none;
 }
+
 /**
 Add the correct font weight in Edge and Safari.
 */
@@ -227,6 +229,10 @@ legend {
 /**
 Add the correct vertical alignment in Chrome and Firefox.
 */
+
+ul {
+  padding: 0;
+}
 
 progress {
   vertical-align: baseline;
