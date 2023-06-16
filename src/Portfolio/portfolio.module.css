@@ -1,0 +1,13 @@
+.ul {
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* justify-content: space-around; */
+  /* gap: 20px; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 2vw;
+}
+
+.li {
+  list-style: none;
+}

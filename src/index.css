@@ -106,6 +106,10 @@ pre {
 Add the correct font size in all browsers.
 */
 
+p {
+  margin: 0;
+}
+
 small {
   font-size: 80%;
 }
