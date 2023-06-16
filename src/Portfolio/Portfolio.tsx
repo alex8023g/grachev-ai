@@ -42,7 +42,7 @@ export function Portfolio() {
     <Layout>
       <ul className={st.ul}>
         {sites.map(({ image, href, stack, github }) => (
-          <li className={st.li} key={href}>
+          <li key={href}>
             {<CardSite image={image} href={href} stack={stack} github={github} />}
           </li>
         ))}

@@ -6,6 +6,7 @@ import './App.css';
 import { Header } from './Header';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Portfolio } from './Portfolio';
+import { Certificates } from './Certificates';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Portfolio />} />
+        <Route path='/certificates' element={<Certificates />} />
       </Routes>
     </BrowserRouter>
   );

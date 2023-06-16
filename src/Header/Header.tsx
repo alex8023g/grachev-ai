@@ -27,8 +27,8 @@ interface Props {
 const drawerWidth = 240;
 const navItems = [
   { name: 'Portfolio', href: '/' },
-  { name: 'About', href: '/about' },
-  { name: 'Contacts', href: '/contacts' },
+  { name: 'Certificates', href: '/certificates' },
+  // { name: 'Contacts', href: '/contacts' },
   // { name: 'Выйти', href: '/login' },
 ];
 
