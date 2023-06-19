@@ -3,3 +3,11 @@
   margin: 0 auto;
   padding: 80px 24px 24px 24px;
 }
+
+@media (max-width: 400px) {
+  .layout {
+    padding: 45px 0 14px 0;
+    /* padding: 50px 5px 14px 5px; */
+    /* width: 100%; */
+  }
+} ;

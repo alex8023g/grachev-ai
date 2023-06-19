@@ -14,11 +14,18 @@ interface Props {
 }
 export function CardSite({ href, image, stack, github }: Props) {
   return (
-    <Card sx={{ width: 400 }} elevation={9}>
+    <Card
+      // sx={{ width: { xs: '100%', sm: 400 } }}
+      // sx={{ width: '150px' }}
+      elevation={9}
+    >
       <CardActionArea>
         <CardMedia
           component='img'
-          height='550'
+          // width='100px'
+          // height='550'
+          sx={{ width: '100%' }}
+          // sx={{ maxWidth: '70vw' }}
           image={image}
           alt='green iguana'
           onClick={(e) => {
@@ -26,7 +33,12 @@ export function CardSite({ href, image, stack, github }: Props) {
           }}
         />
       </CardActionArea>
-      <CardContent sx={{ backgroundColor: '#e8e7e6', height: '100px' }}>
+      <CardContent
+        sx={{
+          backgroundColor: '#e8e7e6',
+          // height: '100px'
+        }}
+      >
         {/* <Typography variant='body2' color='text.secondary'>
             <Typography gutterBottom variant='h5' component='span'>
               Stack:
