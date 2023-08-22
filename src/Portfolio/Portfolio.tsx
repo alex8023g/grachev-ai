@@ -7,6 +7,7 @@ import pomodoroImg from '../img/pomodoro.png';
 import evklidImg from '../img/evklid.png';
 import monitoringsiImg from '../img/monitoringsi.png';
 import coinImg from '../img/coin.png';
+import infinizaiImg from '../img/infinizai.png';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardActionArea from '@mui/material/CardActionArea';
@@ -39,6 +40,12 @@ const sites = [
     image: coinImg,
     stack: `React, Typescrypt, React-Router, Material UI, Recharts, Express, WebSocket.`,
     github: 'https://github.com/alex8023g/coin-front-end',
+  },
+  {
+    href: 'https://kommo-infinizai.vercel.app',
+    image: infinizaiImg,
+    stack: `React, Typescrypt, React-Router, classnames`,
+    github: 'https://github.com/alex8023g/kommo-infinizai',
   },
 ];
 
