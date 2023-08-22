@@ -16,7 +16,8 @@ export function CardSite({ href, image, stack, github }: Props) {
   return (
     <Card
       // sx={{ width: { xs: '100%', sm: 400 } }}
-      // sx={{ width: '150px' }}
+      // sx={{ width: { xs: '100%', sm: 400 } }}
+      sx={{ height: '100%' }}
       elevation={9}
     >
       <CardActionArea>
@@ -36,7 +37,7 @@ export function CardSite({ href, image, stack, github }: Props) {
       <CardContent
         sx={{
           backgroundColor: '#e8e7e6',
-          // height: '100px'
+          minHeight: '100%',
         }}
       >
         {/* <Typography variant='body2' color='text.secondary'>
