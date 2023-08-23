@@ -12,9 +12,9 @@ export function Certificates() {
     <Layout>
       <ul className={st.ul}>
         {[reactJsImg, jsAdvImg, nodeJsImg, webLayoutImg].map((cert) => (
-          <li>
+          <li className={st.li}>
             {/* <Paper elevation={7} sx={{ borderRadius: 5 }}> */}
-            <img src={cert} alt='' />
+            <img className={st.img} src={cert} alt='' />
             {/* </Paper> */}
           </li>
         ))}
