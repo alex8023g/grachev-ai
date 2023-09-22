@@ -8,6 +8,7 @@ import evklidImg from '../img/evklid.png';
 import monitoringsiImg from '../img/monitoringsi.png';
 import coinImg from '../img/coin.png';
 import infinizaiImg from '../img/infinizai.png';
+import bookssearch from '../img/bookssearch.png';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardActionArea from '@mui/material/CardActionArea';
@@ -46,6 +47,12 @@ const sites = [
     image: infinizaiImg,
     stack: `React, Typescrypt, React-Router, classnames`,
     github: 'https://github.com/alex8023g/kommo-infinizai',
+  },
+  {
+    href: 'https://books-search-next-rtk.vercel.app',
+    image: bookssearch,
+    stack: `Nextjs 13 (App Router), Typescrypt, Redux (RTK)`,
+    github: 'https://github.com/alex8023g/books-search-next-rtk',
   },
 ];
 
